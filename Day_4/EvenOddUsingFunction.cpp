@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-
+    int sum(evenOrOdd){
+        if()
+    }
 
 
 int main(){
