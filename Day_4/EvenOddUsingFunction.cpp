@@ -1,31 +1,20 @@
 #include<iostream>
 using namespace std;
-    int sum (evenOrOdd){
-        if(number % 2 == 0){
-            cout<<"Even Number:"<<endl;
-        }
-        else{
-            cout<<"Not a Even Number"<<endl;
-        }
-        return sum;
+
+string evenOrOdd(int number) {
+    if (number % 2 == 0) {
+        return "Even Number";
+    } else {
+        return "Not an Even Number";
     }
-    
+}
 
-
-int main(){
+int main() {
     int number;
-    int evenOrOdd();
-    cout<<"Enter Number: ";
-    cin>>number;
+    cout << "Enter Number: ";
+    cin >> number;
 
+    cout << evenOrOdd(number) << endl;
 
-
-    // for(int i=0; i<numer; i++ ){
-
-    // }
-    
-
-    cout<<"Enter your Nunber"<<evenOrOdd<<endl;
-
-
+    return 0;
 }
