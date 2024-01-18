@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int x = 2;
+int x = 2; //global variable
 
 void fun(){
     int x = 60;
